@@ -3,5 +3,9 @@
 * The user presses the 1 button.
 * 
 ...
+-UI interaction (button click) causes event handler to go off
+-event handler dispatches action
+-action gets to reducer and proper state manipulation occurs
+-reducer renders new state and updates to UI
 
 * TotalDisplay shows the total plus 1.
